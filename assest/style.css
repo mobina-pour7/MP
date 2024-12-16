@@ -1,0 +1,94 @@
+section{
+    height: 100vh;
+    background-color: rgb(128, 106, 150);
+}
+header{
+    height: 20%;
+    background-color: rgb(106, 150, 139);
+    
+}
+.photo{
+    background-color: rgba(255, 255, 255, 0.315);
+    width: 700px;
+    height: 200px;
+    display: inline-block;
+}
+main{
+    text-align: center;
+}
+.inputbox1{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+transition: all 2s;
+border-radius: 20px;
+}
+.inputbox1:hover{
+    background-color: rgb(107, 92, 121);
+    width: 300px;
+}
+.inputbox{
+    width: 200px;
+    height: 20px;
+    background-color: transparent;
+    font-size: 20px;
+    
+}
+.inputbox:focus{
+    background-color: rgb(23, 29, 27);
+}
+.inputbox::placeholder{
+    transition: all 2s;
+    color: black;
+}
+.inputbox:hover::placeholder{
+    color: rgb(72, 133, 133);
+}
+@media (max-width:700px) {
+    header{
+    background-color:rgb(23, 65, 143);
+    }
+    section{
+        height: 100vh;
+        background-color: rgb(128, 106, 150);
+    }
+    
+.photo{
+    background-color: rgba(255, 255, 255, 0.315);
+    width: 350px; 
+    height: 100px;
+    display: inline-block;
+}
+main{
+    text-align: center;
+}
+.inputbox1{
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+transition: all 2s;
+border-radius: 20px;
+}
+.inputbox1:hover{
+    background-color: rgb(107, 92, 121);
+    width: 150px;
+}
+.inputbox{
+    width: 100px;
+    height: 10px;
+    background-color: transparent;
+    font-size: 10px;
+    
+}
+.inputbox:focus{
+    background-color: rgb(23, 29, 27);
+}
+.inputbox::placeholder{
+    transition: all 2s;
+    color: black;
+}
+.inputbox:hover::placeholder{
+    color: rgb(72, 133, 133);
+}
+    
+}
